@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.app-bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-feature-container {
+  background-color: #ffffff;
+  width: 1100px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment-heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.input-label {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input-box {
+  border: 1px solid #b5b7c4;
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  height: 25px;
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.appointment-image {
+  height: 300px;
+  width: 400px;
+}
+
+::placeholder {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.horizontal-line {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.appointment-title {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.starred-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-style {
+  font-family: 'Roboto';
+
+  font-size: 12px;
+  border-radius: 20px;
+  height: 25px;
+  width: 80px;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: transparent;
+  border: 1px solid #9897f0;
+}
+
+.appointments-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
